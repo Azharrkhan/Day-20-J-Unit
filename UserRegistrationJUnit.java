@@ -37,28 +37,28 @@ public class UserRegistrationJUnit {
 		}
 		
 		public void testMails() {
-			validateEmail("abc@yahoo.com");
-			validateEmail("abc");
-			validateEmail("abc-100@yahoo.com");
-			validateEmail("abc@.com.my");
-			validateEmail("abc.100@yahoo.com");
-			validateEmail("abc123@gmail.a");
-			validateEmail("abc111@abc.com");
-			validateEmail("abc123@.com");
-			validateEmail("abc-100@abc.net");
-			validateEmail("abc123@.com.com");
-			validateEmail("abc.100@abc.com.au");
-			validateEmail(".abc@abc.com");
-			validateEmail("abc@1.com");
-			validateEmail("abc()*@gmail.com");
-			validateEmail("abc@gmail.com.com");
-			validateEmail("abc@%*.com");
+			validateEmail("xyz@yahoo.com");
+			validateEmail("xyz");
+			validateEmail("xyz-100@yahoo.com");
+			validateEmail("xyz@.com.my");
+			validateEmail("xyz.100@yahoo.com");
+			validateEmail("xyz786@gmail.a");
+			validateEmail("xyz123@abc.com");
+			validateEmail("xyz786@.com");
+			validateEmail("xyz-100@abc.net");
+			validateEmail("xyz786@.com.com");
+			validateEmail("xyz.100@abc.com.au");
+			validateEmail(".xyz@abc.com");
+			validateEmail("xyz@1.com");
+			validateEmail("xyz()*@gmail.com");
+			validateEmail("xyz@gmail.com.com");
+			validateEmail("xyz@%*.com");
 			validateEmail("abc+100@gmail.com");
-			validateEmail("abc..2002@gmail.com");
-			validateEmail("abc.@gmail.com");
-			validateEmail("abc@abc@gmail.com");
-			validateEmail("abc@gmail.com.1a");
-			validateEmail("abc@gmail.com.aa.au");
+			validateEmail("xyz..2002@gmail.com");
+			validateEmail("xyz.@gmail.com");
+			validateEmail("xyz@abc@gmail.com");
+			validateEmail("xyz@gmail.com.1a");
+			validateEmail("xyz@gmail.com.aa.au");
 		}
 		
 		private void validatePassword(String input) {
